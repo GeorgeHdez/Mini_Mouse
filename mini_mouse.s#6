@@ -12162,6 +12162,20 @@ Source: www.kingbright.com</description>
 <pinref part="R5" gate="G$1" pin="2"/>
 </segment>
 </net>
+<net name="RX" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="RC7/RX/DT/SDO"/>
+<wire x1="99.06" y1="127" x2="91.44" y2="127" width="0.1524" layer="91"/>
+<label x="91.44" y="127" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="TX" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="RC6/TX/CK"/>
+<wire x1="170.18" y1="127" x2="177.8" y2="127" width="0.1524" layer="91"/>
+<label x="175.26" y="127" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>

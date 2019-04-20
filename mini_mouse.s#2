@@ -12351,6 +12351,7 @@ http://www.st.com&lt;p&gt;
 <part name="S1" library="switch-dil" library_urn="urn:adsk.eagle:library:375" deviceset="DIP02YL" device="" package3d_urn="urn:adsk.eagle:package:27254/2"/>
 <part name="RS1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
 <part name="RS2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
+<part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12472,6 +12473,9 @@ http://www.st.com&lt;p&gt;
 <instance part="RS2" gate="G$1" x="226.06" y="50.8">
 <attribute name="NAME" x="222.25" y="52.2986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="222.25" y="47.498" size="1.778" layer="96"/>
+</instance>
+<instance part="GND4" gate="1" x="236.22" y="45.72">
+<attribute name="VALUE" x="233.68" y="43.18" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -12643,6 +12647,16 @@ http://www.st.com&lt;p&gt;
 <pinref part="IC2" gate="L298" pin="GND"/>
 <wire x1="78.74" y1="20.32" x2="73.66" y2="20.32" width="0.1524" layer="91"/>
 <label x="73.66" y="20.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="RS1" gate="G$1" pin="2"/>
+<wire x1="231.14" y1="55.88" x2="236.22" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="55.88" x2="236.22" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="RS2" gate="G$1" pin="2"/>
+<wire x1="236.22" y1="50.8" x2="231.14" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="GND4" gate="1" pin="GND"/>
+<wire x1="236.22" y1="48.26" x2="236.22" y2="50.8" width="0.1524" layer="91"/>
+<junction x="236.22" y="50.8"/>
 </segment>
 </net>
 <net name="OSC2" class="0">

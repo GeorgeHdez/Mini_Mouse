@@ -12416,13 +12416,6 @@ http://www.st.com&lt;p&gt;
 <pinref part="IC2" gate="L298" pin="VCC"/>
 <wire x1="78.74" y1="45.72" x2="73.66" y2="45.72" width="0.1524" layer="91"/>
 <label x="73.66" y="45.72" size="1.778" layer="95"/>
-<pinref part="IC2" gate="L298" pin="ENABLE_B"/>
-<wire x1="78.74" y1="38.1" x2="73.66" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="L298" pin="ENABLE_A"/>
-<wire x1="78.74" y1="40.64" x2="73.66" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="38.1" x2="73.66" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="40.64" x2="73.66" y2="45.72" width="0.1524" layer="91"/>
-<junction x="73.66" y="40.64"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="L298" pin="VS"/>
@@ -12763,9 +12756,9 @@ http://www.st.com&lt;p&gt;
 <label x="223.52" y="71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="L298" pin="INPUT1"/>
-<wire x1="78.74" y1="33.02" x2="73.66" y2="33.02" width="0.1524" layer="91"/>
-<label x="68.58" y="33.02" size="1.778" layer="95"/>
+<pinref part="IC2" gate="L298" pin="ENABLE_A"/>
+<wire x1="78.74" y1="40.64" x2="73.66" y2="40.64" width="0.1524" layer="91"/>
+<label x="68.58" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PWM_2" class="0">
@@ -12780,9 +12773,9 @@ http://www.st.com&lt;p&gt;
 <label x="223.52" y="68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="L298" pin="INPUT2"/>
-<wire x1="78.74" y1="30.48" x2="73.66" y2="30.48" width="0.1524" layer="91"/>
-<label x="68.58" y="30.48" size="1.778" layer="95"/>
+<pinref part="IC2" gate="L298" pin="ENABLE_B"/>
+<wire x1="78.74" y1="38.1" x2="73.66" y2="38.1" width="0.1524" layer="91"/>
+<label x="68.58" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="OUT_B2" class="0">

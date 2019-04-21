@@ -12869,6 +12869,20 @@ http://www.st.com&lt;p&gt;
 <label x="111.76" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="PA_1" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="RE2/AN7/OESPP"/>
+<wire x1="170.18" y1="83.82" x2="177.8" y2="83.82" width="0.1524" layer="91"/>
+<label x="172.72" y="83.82" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PA_2" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="RE1/AN6/CK2SPP"/>
+<wire x1="170.18" y1="81.28" x2="177.8" y2="81.28" width="0.1524" layer="91"/>
+<label x="172.72" y="81.28" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>

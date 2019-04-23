@@ -2744,13 +2744,18 @@ design rules under a new name.</description>
 <wire x1="86.106" y1="10.668" x2="87.4014" y2="11.9634" width="0.6096" layer="16"/>
 <wire x1="77.0382" y1="5.2578" x2="82.4484" y2="10.668" width="0.6096" layer="16"/>
 <wire x1="82.4484" y1="10.668" x2="86.106" y2="10.668" width="0.6096" layer="16"/>
-<wire x1="82.4484" y1="10.668" x2="75.5402" y2="13.2848" width="0" layer="19" extent="16-16"/>
-<wire x1="54.6868" y1="16.6788" x2="68.112" y2="8.636" width="0" layer="19" extent="1-1"/>
+<wire x1="75.5402" y1="13.7474" x2="78.6196" y2="10.668" width="0.6096" layer="16"/>
+<wire x1="78.6196" y1="10.668" x2="82.4484" y2="10.668" width="0.6096" layer="16"/>
+<wire x1="54.6868" y1="16.6788" x2="57.6182" y2="13.7474" width="0.6096" layer="16"/>
+<wire x1="57.6182" y1="13.7474" x2="75.5402" y2="13.7474" width="0.6096" layer="16"/>
 </signal>
 <signal name="N$5">
 <contactref element="JP2" pad="1"/>
 <contactref element="ALIMENTACIÓN" pad="1"/>
-<wire x1="62.1792" y1="8.7122" x2="73.112" y2="8.636" width="0" layer="19" extent="1-1"/>
+<wire x1="62.1792" y1="8.7122" x2="65.1256" y2="11.6586" width="0.6096" layer="16"/>
+<wire x1="65.1256" y1="11.6586" x2="71.628" y2="11.6586" width="0.6096" layer="16"/>
+<wire x1="71.628" y1="11.6586" x2="73.112" y2="10.1746" width="0.6096" layer="16"/>
+<wire x1="73.112" y1="10.1746" x2="73.112" y2="8.636" width="0.6096" layer="16"/>
 </signal>
 <signal name="START">
 <contactref element="IC1" pad="25"/>

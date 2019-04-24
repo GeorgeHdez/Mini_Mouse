@@ -21846,11 +21846,6 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 </net>
 <net name="PA_1" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="RE2/AN7/OESPP"/>
-<wire x1="170.18" y1="83.82" x2="177.8" y2="83.82" width="0.1524" layer="91"/>
-<label x="172.72" y="83.82" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="OPCIONES" gate="1" pin="3"/>
 <wire x1="218.44" y1="73.66" x2="213.36" y2="73.66" width="0.1524" layer="91"/>
 <label x="210.82" y="73.66" size="1.778" layer="95"/>
@@ -21860,13 +21855,13 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <wire x1="220.98" y1="55.88" x2="215.9" y2="55.88" width="0.1524" layer="91"/>
 <label x="213.36" y="55.88" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="RE0/AN5/CK1SPP"/>
+<wire x1="170.18" y1="78.74" x2="177.8" y2="78.74" width="0.1524" layer="91"/>
+<label x="172.72" y="78.74" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PA_2" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="RE1/AN6/CK2SPP"/>
-<wire x1="170.18" y1="81.28" x2="177.8" y2="81.28" width="0.1524" layer="91"/>
-<label x="172.72" y="81.28" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="OPCIONES" gate="1" pin="4"/>
 <wire x1="218.44" y1="71.12" x2="213.36" y2="71.12" width="0.1524" layer="91"/>
@@ -21876,6 +21871,11 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <pinref part="RS2" gate="G$1" pin="1"/>
 <wire x1="220.98" y1="50.8" x2="215.9" y2="50.8" width="0.1524" layer="91"/>
 <label x="213.36" y="50.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="RE1/AN6/CK2SPP"/>
+<wire x1="170.18" y1="81.28" x2="177.8" y2="81.28" width="0.1524" layer="91"/>
+<label x="172.72" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BAT" class="0">
@@ -21912,15 +21912,15 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 </net>
 <net name="START" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="RE0/AN5/CK1SPP"/>
-<wire x1="170.18" y1="78.74" x2="177.8" y2="78.74" width="0.1524" layer="91"/>
-<label x="172.72" y="78.74" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="ACTIVADOR" gate="G$1" pin="1"/>
 <wire x1="121.92" y1="144.78" x2="109.22" y2="144.78" width="0.1524" layer="91"/>
 <label x="109.22" y="144.78" size="1.778" layer="95"/>
 <pinref part="RS3" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="RC0/TIOSO/T13CKI"/>
+<wire x1="170.18" y1="96.52" x2="177.8" y2="96.52" width="0.1524" layer="91"/>
+<label x="172.72" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

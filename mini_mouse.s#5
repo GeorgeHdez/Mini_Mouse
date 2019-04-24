@@ -21558,34 +21558,29 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 </net>
 <net name="D1_M1" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="RC5/D+/VP"/>
-<wire x1="170.18" y1="124.46" x2="177.8" y2="124.46" width="0.1524" layer="91"/>
-<label x="172.72" y="124.46" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="IC4" gate="G$1" pin="1A"/>
 <wire x1="78.74" y1="48.26" x2="73.66" y2="48.26" width="0.1524" layer="91"/>
 <label x="71.12" y="48.26" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="RA4/T0CKI/CIOUT/RCV"/>
+<wire x1="170.18" y1="73.66" x2="177.8" y2="73.66" width="0.1524" layer="91"/>
+<label x="172.72" y="73.66" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="D2_M1" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="RC4/D-/VM"/>
-<wire x1="170.18" y1="121.92" x2="177.8" y2="121.92" width="0.1524" layer="91"/>
-<label x="172.72" y="121.92" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="IC4" gate="G$1" pin="2A"/>
 <wire x1="78.74" y1="22.86" x2="73.66" y2="22.86" width="0.1524" layer="91"/>
 <label x="68.58" y="22.86" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="RA5/AN4/!SS!/HLVDIN/C2OUT"/>
+<wire x1="170.18" y1="76.2" x2="177.8" y2="76.2" width="0.1524" layer="91"/>
+<label x="172.72" y="76.2" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="D1_M2" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="RD3/SPP3"/>
-<wire x1="170.18" y1="119.38" x2="177.8" y2="119.38" width="0.1524" layer="91"/>
-<label x="172.72" y="119.38" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="IC4" gate="G$1" pin="4A"/>
 <wire x1="109.22" y1="48.26" x2="114.3" y2="48.26" width="0.1524" layer="91"/>
@@ -21598,11 +21593,6 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 </segment>
 </net>
 <net name="D2_M2" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="RD2/SPP2"/>
-<wire x1="170.18" y1="116.84" x2="177.8" y2="116.84" width="0.1524" layer="91"/>
-<label x="172.72" y="116.84" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="IC4" gate="G$1" pin="3A"/>
 <wire x1="109.22" y1="22.86" x2="114.3" y2="22.86" width="0.1524" layer="91"/>
@@ -21625,6 +21615,11 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <wire x1="22.86" y1="132.08" x2="17.78" y2="132.08" width="0.1524" layer="91"/>
 <label x="12.7" y="132.08" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="RC5/D+/VP"/>
+<wire x1="170.18" y1="124.46" x2="177.8" y2="124.46" width="0.1524" layer="91"/>
+<label x="172.72" y="124.46" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="LED_2" class="0">
 <segment>
@@ -21636,6 +21631,11 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <pinref part="R_L2" gate="G$1" pin="1"/>
 <wire x1="22.86" y1="121.92" x2="17.78" y2="121.92" width="0.1524" layer="91"/>
 <label x="12.7" y="121.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="RC4/D-/VM"/>
+<wire x1="170.18" y1="121.92" x2="177.8" y2="121.92" width="0.1524" layer="91"/>
+<label x="172.72" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LED_3" class="0">
@@ -21649,6 +21649,11 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <wire x1="22.86" y1="111.76" x2="17.78" y2="111.76" width="0.1524" layer="91"/>
 <label x="12.7" y="111.76" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="RD3/SPP3"/>
+<wire x1="170.18" y1="119.38" x2="177.8" y2="119.38" width="0.1524" layer="91"/>
+<label x="172.72" y="119.38" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="LED_4" class="0">
 <segment>
@@ -21660,6 +21665,11 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <pinref part="R_L4" gate="G$1" pin="1"/>
 <wire x1="22.86" y1="101.6" x2="17.78" y2="101.6" width="0.1524" layer="91"/>
 <label x="12.7" y="101.6" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="RD2/SPP2"/>
+<wire x1="170.18" y1="116.84" x2="177.8" y2="116.84" width="0.1524" layer="91"/>
+<label x="172.72" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">

@@ -82,17 +82,17 @@
 <hole x="76.75" y="55" drill="2.184"/>
 <hole x="76.75" y="37" drill="2.184"/>
 <wire x1="0" y1="0" x2="92" y2="0" width="0.1524" layer="20"/>
-<wire x1="92" y1="0" x2="92" y2="36" width="0.1524" layer="20"/>
-<wire x1="92" y1="36" x2="81" y2="36" width="0.1524" layer="20"/>
-<wire x1="81" y1="36" x2="81" y2="56" width="0.1524" layer="20"/>
-<wire x1="81" y1="56" x2="92" y2="56" width="0.1524" layer="20"/>
-<wire x1="92" y1="56" x2="92" y2="92" width="0.1524" layer="20"/>
+<wire x1="92" y1="0" x2="92" y2="30" width="0.1524" layer="20"/>
+<wire x1="92" y1="30" x2="81" y2="30" width="0.1524" layer="20"/>
+<wire x1="81" y1="30" x2="81" y2="62" width="0.1524" layer="20"/>
+<wire x1="81" y1="62" x2="92" y2="62" width="0.1524" layer="20"/>
+<wire x1="92" y1="62" x2="92" y2="92" width="0.1524" layer="20"/>
 <wire x1="92" y1="92" x2="0" y2="92" width="0.1524" layer="20"/>
-<wire x1="0" y1="92" x2="0" y2="56" width="0.1524" layer="20"/>
-<wire x1="0" y1="56" x2="11" y2="56" width="0.1524" layer="20"/>
-<wire x1="11" y1="56" x2="11" y2="36" width="0.1524" layer="20"/>
-<wire x1="11" y1="36" x2="0" y2="36" width="0.1524" layer="20"/>
-<wire x1="0" y1="36" x2="0" y2="0" width="0.1524" layer="20"/>
+<wire x1="0" y1="92" x2="0" y2="62" width="0.1524" layer="20"/>
+<wire x1="0" y1="62" x2="11" y2="62" width="0.1524" layer="20"/>
+<wire x1="11" y1="62" x2="11" y2="30" width="0.1524" layer="20"/>
+<wire x1="11" y1="30" x2="0" y2="30" width="0.1524" layer="20"/>
+<wire x1="0" y1="30" x2="0" y2="0" width="0.1524" layer="20"/>
 <hole x="46" y="69.246" drill="2.286"/>
 <hole x="46" y="75.4944" drill="2.286"/>
 </plain>

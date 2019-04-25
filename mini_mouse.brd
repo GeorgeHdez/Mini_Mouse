@@ -82,8 +82,8 @@
 <hole x="11.25" y="37" drill="2.184"/>
 <hole x="80.75" y="55" drill="2.184"/>
 <hole x="80.75" y="37" drill="2.184"/>
-<hole x="46" y="62.538" drill="2.286"/>
-<hole x="46" y="76" drill="2.286"/>
+<hole x="52.731" y="89" drill="2.286"/>
+<hole x="39.269" y="89" drill="2.286"/>
 <wire x1="0" y1="0" x2="92" y2="0" width="0.254" layer="20"/>
 <wire x1="92" y1="0" x2="92" y2="30" width="0.254" layer="20"/>
 <wire x1="92" y1="30" x2="85" y2="30" width="0.254" layer="20"/>

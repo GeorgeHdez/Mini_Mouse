@@ -21821,9 +21821,9 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <label x="91.44" y="127" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="COMUNICACION" gate="A" pin="2"/>
-<wire x1="238.76" y1="157.48" x2="246.38" y2="157.48" width="0.1524" layer="91"/>
-<label x="243.84" y="157.48" size="1.778" layer="95"/>
+<pinref part="COMUNICACION" gate="A" pin="4"/>
+<wire x1="238.76" y1="154.94" x2="246.38" y2="154.94" width="0.1524" layer="91"/>
+<label x="243.84" y="154.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TX" class="0">
@@ -21833,9 +21833,9 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <label x="175.26" y="127" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="COMUNICACION" gate="A" pin="4"/>
-<wire x1="238.76" y1="154.94" x2="246.38" y2="154.94" width="0.1524" layer="91"/>
-<label x="243.84" y="154.94" size="1.778" layer="95"/>
+<pinref part="COMUNICACION" gate="A" pin="2"/>
+<wire x1="238.76" y1="157.48" x2="246.38" y2="157.48" width="0.1524" layer="91"/>
+<label x="243.84" y="157.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PWM_1" class="0">
